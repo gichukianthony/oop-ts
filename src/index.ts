@@ -1,6 +1,8 @@
-import { zoo } from './zoo';
+import { libraryImplementation } from "./library";
+import { EcommerceImplementation } from "./ecommerce";
 import RideSystem from './RideSystem';
-zoo();
+import { zoo } from "./zoo";
+libraryImplementation();
+EcommerceImplementation();
 RideSystem();
-
-
+zoo();
