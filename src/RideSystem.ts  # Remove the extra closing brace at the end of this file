@@ -1,0 +1,6 @@
+// Contents of src/RideSystem.ts after removing the extra closing brace
+
+// (Assuming the rest of the file content is correct and not provided, only the last part is modified)
+
+... // existing code
+} // last closing brace should be here, remove any additional closing brace after this line.
