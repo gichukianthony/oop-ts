@@ -1,4 +1,6 @@
 import { zoo } from './zoo';
-zoo()
+import RideSystem from './RideSystem';
+zoo();
+RideSystem();
 
 
