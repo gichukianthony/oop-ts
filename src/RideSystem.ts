@@ -116,8 +116,7 @@ class TrafficBasedPricing implements FareStrategy {
     return fare;
   }
 }
-
-// ======================= Ride & Factory Pattern =======================
+// Ride & Factory Pattern
 class Ride {
   pickupLocation: { lat: number; lng: number };
   dropoffLocation: { lat: number; lng: number };
@@ -162,7 +161,7 @@ class RideFactory {
   }
 }
 
-// ======================= Matching Algorithm =======================
+//  Matching Algorithm
 class RideMatching {
   static findNearestDriver(
     passenger: Passenger,
@@ -185,7 +184,7 @@ class RideMatching {
   }
 }
 
-// ======================= Example Usage =======================
+
 // Setup drivers
 const vehicle1 = new Vehicle('v1', 'Tesla', 'Model 3', 4);
 const driver1 = new Driver(
@@ -233,7 +232,7 @@ if (matchedDriver) {
     `Ride fare: ${ride.fare.toFixed(2)} with driver: ${matchedDriver.name}`
   );
 
-  //output passener's price and destination
+  //output passenger's price and destination
    console.log(`Passenger: ${passenger.name}`);
   console.log(`Destination: (${ride.dropoffLocation.lat}, ${ride.dropoffLocation.lng})`);
   console.log(`Price: ${ride.fare.toFixed(2)}`);
