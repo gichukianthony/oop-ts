@@ -1,1 +1,4 @@
-console.log('Hello, world!');
+import { zoo } from './zoo';
+zoo()
+
+
